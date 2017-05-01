@@ -1,7 +1,5 @@
-print("First edit")
-print("Second edit")
-print("third edit")
-print("fourth edit")
-print("fifth edit")
-print("sixth edit")
-print("this is the next change")
+def squared(number):
+	return number * number
+
+result = squared(3)
+print(str(result))
